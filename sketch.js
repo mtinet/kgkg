@@ -13,13 +13,13 @@ function draw() {
   y=y+3;
   z=z+5;
   if(x>255){
-  x-=255;
+    x-=255;
   }
   if(y>255){
-  y-=255;
+    y-=255;
   }
   if(z>255){
-  z-=255;
+    z-=255;
   }
   textSize(300);
   textAlign(CENTER,CENTER);
